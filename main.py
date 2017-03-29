@@ -45,7 +45,7 @@ def main(argv):
     date = (time.strftime("%m/%Y"))
     month = date[0:2]
     year = date[3:7]
-    #Loop through all 31 days and see if Blooberg released an update
+    #Loop through all 31 days and see if Bloomberg released an update
     for x in range(1, 32):
         day = str(x)
         if len(day) < 2:
