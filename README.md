@@ -1,4 +1,4 @@
-#Bloomberg Update Check
+# Bloomberg Update Check
 
 ## Synopsis 
 
@@ -6,7 +6,8 @@ Check the internet to see if Bloomberg has released an update to their terminal 
 
 [Bloomberg Software](https://www.bloomberg.com/professional/downloads/)
 
-Bloomberg has a standard format in the URL of their terminal update: 
+Bloomberg has a standard format in the URL of their terminal update:
+ 
 [http://bdn-ak.bloomberg.com/software/trv/**upgr03072017.exe**](http://bdn-ak.bloomberg.com/software/trv/upgr03072017.exe)
 
 The tail of the URL is the date of release in the example, it would mean the update was made March 7, 2017. 
@@ -32,8 +33,8 @@ This will work on Python 2.7.x and is known to work on Windows and Linux, since 
 
 ## Contributors
 
--Hexadecimalz
--Anonymous (with guidance from Hexadecimalz)
+* Hexadecimalz
+* Anonymous (with guidance from Hexadecimalz)
 
 ## Issues 
 
