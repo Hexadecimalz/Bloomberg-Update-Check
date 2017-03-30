@@ -15,7 +15,7 @@ The tail of the URL is the date of release in the example, it would mean the upd
 ## Example Usage 
 
 Check out the main method when it is called. This is a very simple use case. 
-The intention is to allow the code to be used withing messaging or e-mail, and such that the message will only occur once a month. 
+The intention is to allow the code to be used within messaging or e-mail, and such that the message will only occur once a month. 
 
 ```
  if main(sys.argv) == True:
