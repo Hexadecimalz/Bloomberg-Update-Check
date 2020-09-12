@@ -1,4 +1,4 @@
-# Bloomberg Update Check
+# 📬 Bloomberg Terminal Update Check
 
 ## Synopsis 
 
@@ -8,9 +8,9 @@ Check the internet to see if Bloomberg has released an update to their terminal 
 
 Bloomberg has a standard format in the URL of their terminal update:
  
-[http://bdn-ak.bloomberg.com/software/trv/**upgr03072017.exe**](http://bdn-ak.bloomberg.com/software/trv/upgr03072017.exe)
+https://bdn-ak-ssl.bloomberg.com/software/trv/upgr09072020.exe
 
-The tail of the URL is the date of release in the example, it would mean the update was made March 7, 2017. 
+The tail of the URL is the date of release in the example, it would mean the update was made September 7, 2020.
 
 ## Example Usage 
 
@@ -29,13 +29,9 @@ You might also have the code download the update and save for network deployment
 
 ## Compatibility 
 
-This will work on Python 2.7.x and is known to work on Windows and Linux, since macOS is similar it is assumed to work there, too. Your Cron job should have rights to write files or the code will ping each time the task runs. 
+This will work on Python 3.8.x and is known to work on Windows and Linux, since macOS is similar it is assumed to work there, too. 
 
-## Contributors
+## 👽 Contributors
 
 * Hexadecimalz
 * Anonymous (with guidance from Hexadecimalz)
-
-## Issues 
-
-This is my first project using GitHub, please be kind and contribute. For example, the code assumes all months have 31 days, because it did not seem significant enough to modify for the small variances in the calendar. 
