@@ -4,11 +4,9 @@
 
 Check the internet to see if Bloomberg has released an update to their terminal software. Bloomberg releases updates to the software monthly, but without notice. Updates on the client are throttled and can frequently be slow. It is helpful to know when an update is available to allow for an update to be installed before user intervention. 
 
-[Bloomberg Software](https://www.bloomberg.com/professional/downloads/)
-
-Bloomberg has a standard format in the URL of their terminal update:
- 
-https://bdn-ak-ssl.bloomberg.com/software/trv/upgr09072020.exe
+- [Bloomberg Software](https://www.bloomberg.com/professional/downloads/)
+- Bloomberg has a standard format in the URL of their terminal update:
+  - https://bdn-ak-ssl.bloomberg.com/software/trv/upgr09072020.exe
 
 The tail of the URL is the date of release in the example, it would mean the update was made September 7, 2020.
 
@@ -34,4 +32,4 @@ This will work on Python 3.8.x and is known to work on Windows and Linux, since 
 ## 👽 Contributors
 
 * Hexadecimalz
-* Anonymous (with guidance from Hexadecimalz)
+* Anonymous
