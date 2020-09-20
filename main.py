@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import time
 from urllib.request import urlopen
 import os
